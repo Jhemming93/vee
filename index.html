@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Well4Ward</title>
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            backgroundImage: {
+              leaf_banner: "url('/img/leaf_banner-1400.jpg')",
+            },
+            colors: {
+              mainBlue: "#2aa2BF",
+              mainGreen: "#345424",
+              mainOrange: "#DB6C18",
+              mainGrey: "#485B55",
+              secondBlue: "#DDF8FF",
+              secondGreen: "#EAFFD4",
+            },
+          },
+        },
+      };
+    </script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <header class="bg-gray-200">
+      <div id="main_nav flex">
+        <div id="main_logo"><h1>Well4Ward</h1></div>
+        <div id="main_menu">
+          <ul class="flex">
+            <li class="px-2"><a href="#goals">Goals</a></li>
+            <li class="px-2"><a href="#roadmap">RoadMap</a></li>
+            <li class="px-2"><a href="#getinvolved">Get Involved</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="bg-mainGrey">
+      <div class="top_banner bg-leaf_banner flex justify-around">
+        <div class="bg-mainBlue p-2">
+          <div>
+            <h2
+              class="text-mainGreen font-bold text-6xl uppercase z-10 relative"
+            >
+              Well<span class="text-white">4</span>Ward
+            </h2>
+            <span
+              class="w-full bg-mainOrange h-2 block relative bottom-6"
+            ></span>
+          </div>
+          <p class="uppercase text-3xl">Housing Reform Initiative</p>
+          <p class="uppercase text-2xl">
+            <span>Invest</span>,<span>Hope</span>,<span>Grow</span>,<span
+              >Live</span
+            >
+          </p>
+        </div>
+      </div>
+      <div class="px-2">
+        <section id="goals">
+          <h3 class="">Housing Reform Goals</h3>
+          <div>
+            <h4>Invest in Co-Operative Housing</h4>
+            <p>
+              To partner with people and communities in reforming the
+              relationship between residents and the homes they depend on for
+              well-being
+            </p>
+          </div>
+          <div>
+            <h4>Facilitate formation</h4>
+            <p>
+              Generate resources and partnerships of mutual benefit to support
+              the building of distributed co-operative networks within local
+              areas and aid in funding and ongoing maintenance
+            </p>
+          </div>
+          <div>
+            <h4>Educate, inform, and grow</h4>
+            <p>
+              Promote the development of the distributed co-operative model
+              through education and outreach with the goal of reforming local
+              culture and sustainable housing accessibility
+            </p>
+          </div>
+        </section>
+        <section id="roadmap">
+          <h3>Roadmap</h3>
+          <div>
+            <h4>TimeLine</h4>
+            <div>
+              <div class="p-2 rounded w-fit text-white">
+                <h4>01</h4>
+                <div class="text-secondGreen myclass_ptsans text-2xl">
+                  <p>1 Oct,</p>
+                  <p>2024</p>
+                </div>
+                <p>General </br>Campaign Launch</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h4>Current Works in Progress</h4>
+            <div>
+              <h5>Organizational Structure</h5>
+              <ul>
+                <li>Development of bylaws</li>
+                <li>Delegating key roles</li>
+                <li>Determining legal framework</li>
+                <li>Defining on core principles, values and aims</li>
+                <li>
+                  Designing co-operative configuration templates and links
+                </li>
+                <li>Detailing fundraising strategies</li>
+                <li>Deciding on pilot project parameters</li>
+              </ul>
+            </div>
+            <div>
+              <h5>Informational, Educational and Promotional Materials</h5>
+              <ul>
+                <li>
+                  Website development to include blog and discussion forums
+                </li>
+                <li>
+                  Primers and zines to educate on the conceptual housing model
+                </li>
+                <li>Social media outreach material</li>
+                <li>Branding and advertising for funding campaigns</li>
+                <li>Partnership pitches for complementary organizations</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <h4>Aspiring Projects</h4>
+            <div>
+              <h5>Distributed Co-operatives</h5>
+              <p>
+                <span>Idea: </span>Raise funds to pay off mortgage debt for
+                small groups of existing homeowners who live in a local area.
+                Then establish a financial co-operative structure to share in
+                ongoing home maintenance, development and organization
+              </p>
+              <p>
+                <span>Goal: </span>Provide framework for an alternative housing
+                "market" and inter-co-operative development
+              </p>
+            </div>
+            <div>
+              <h5>Facilitated Co-operatives</h5>
+              <p>
+                <span>Idea: </span>Raise funds to buy or build multi-family
+                buildings in a local area with no mortgage and facilitate
+                creation of a resident managed financial co-operative structure
+                for the building
+              </p>
+              <p>
+                <span>Goal: </span>Provide framework for an alternative housing
+                "market" and inter-co-operative development
+              </p>
+            </div>
+            <div>
+              <h5>Artists/Workers Co-operatives</h5>
+              <p>
+                <span>Idea: </span>Raise funds to purchase and reclaim an
+                underutilized building and develop it into combined community
+                art studio and residential apartment units for local artists to
+                produce art, teach workshops and share skills
+              </p>
+              <p>
+                <span>Goal: </span>A community art and culture hub that allows
+                artists to share resources for living, creating and connecting
+              </p>
+            </div>
+            <div>
+              <h5>Growers/Agri Co-operatives</h5>
+              <p>
+                <span>Idea: </span>Raise funds to purchase and reclaim an
+                underutilized building and develop it into combined hydroponic
+                greenhouse and residential apartment units for locals to grow
+                food, teach workshops and share skills
+              </p>
+              <p>
+                <span>Goal: </span>A community food and culture hub that allows
+                growers to share resources for living, gardening and connecting
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="getinvolved">
+          <h3>Get Involved</h3>
+          <div>
+            <h4></h4>
+            <p></p>
+            <ul></ul>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="bg-mainOrange p-2">
+      <div id="footer-nav">
+        <nav>
+          <ul>
+            <li><a href="/bylaws">Bylaws</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
