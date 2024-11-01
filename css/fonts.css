@@ -9,6 +9,14 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: NovaCut;
+  src: url(/fonts/NovaCut-Regular.ttf);
+}
+
+.myclass_novacut {
+  font-family: NovaCut;
+}
 .myclass_ptsans {
   font-family: PTSans;
 }
